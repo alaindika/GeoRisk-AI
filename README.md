@@ -1,12 +1,16 @@
-**GeoRisk-AI**
+\# GeoRisk-AI
 
 
 
-**Explainable Severe Weather Risk Forecasting Dashboard**
+\## Explainable Severe Weather Risk Forecasting Dashboard
 
 
 
 GeoRisk-AI is a machine learning prototype that classifies localized severe-weather risk as \*\*Low\*\*, \*\*Medium\*\*, or \*\*High\*\* using engineered meteorological features. The system combines a trained Random Forest model, SHAP-based explainability, error analysis, and an interactive Streamlit dashboard.
+
+
+
+\---
 
 
 
@@ -15,6 +19,10 @@ GeoRisk-AI is a machine learning prototype that classifies localized severe-weat
 
 
 Severe weather alerts need to be timely, localized, and interpretable. This project translates weather signals such as rainfall accumulation, pressure drop, wind speed, humidity, temperature anomaly, snowfall rate, and season into a risk-level prediction that can support early decision-making.
+
+
+
+\---
 
 
 
@@ -38,11 +46,17 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 
 
+\---
+
+
+
 \## Dashboard Preview
 
 
 
 \### Home Dashboard
+
+
 
 !\[Dashboard Home](images/dashboard\_home.png)
 
@@ -50,11 +64,15 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 \### Prediction Results
 
+
+
 !\[Prediction Result](images/prediction\_result.png)
 
 
 
 \### SHAP Explainability
+
+
 
 !\[SHAP Analysis](images/shap\_analysis.png)
 
@@ -62,7 +80,13 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 \### Error Analysis
 
+
+
 !\[Confusion Matrix](images/confusion\_matrix.png)
+
+
+
+\---
 
 
 
@@ -70,61 +94,17 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 
 
-\*\*Task:\*\* Multiclass classification  
+\- \*\*Task:\*\* Multiclass classification
 
-\*\*Target:\*\* `Low`, `Medium`, `High` weather risk  
+\- \*\*Target:\*\* Low / Medium / High weather risk
 
-\*\*Primary metric:\*\* High-risk recall  
+\- \*\*Primary metric:\*\* High-risk recall
 
-\*\*Main model:\*\* Random Forest Classifier
-
-
-
-\## Input Features
+\- \*\*Main model:\*\* Random Forest Classifier
 
 
 
-| Feature | Description |
-
-|---|---|
-
-| `rainfall\_48hr` | 48-hour accumulated rainfall |
-
-| `pressure\_drop\_3hr` | 3-hour atmospheric pressure change |
-
-| `temp\_anomaly` | Temperature deviation from expected conditions |
-
-| `wind\_speed` | Current wind speed |
-
-| `humidity` | Relative humidity |
-
-| `snowfall\_rate` | Snowfall accumulation rate |
-
-| `season` | Encoded seasonal context |
-
-
-
-\## Current Results
-
-
-
-Model comparison on the synthetic prototype dataset:
-
-
-
-| Model | Accuracy | Weighted F1 | High-Risk Recall |
-
-|---|---:|---:|---:|
-
-| Random Forest | 0.9000 | 0.9003 | 0.8817 |
-
-| Decision Tree | 0.8944 | 0.8956 | 0.8495 |
-
-| Logistic Regression | 0.8800 | 0.8799 | 0.8710 |
-
-
-
-The error analysis shows that most confusion occurs around boundary cases between \*\*Low\*\*, \*\*Medium\*\*, and \*\*High\*\* risk, which is realistic for weather-risk classification.
+\---
 
 
 
@@ -140,9 +120,9 @@ GeoRisk-AI/
 
 ├── app.py
 
-├── requirements.txt
-
 ├── README.md
+
+├── requirements.txt
 
 │
 
@@ -170,15 +150,69 @@ GeoRisk-AI/
 
 ├── data/
 
-│   ├── raw/
-
-│   └── processed/
-
-│
+├── images/
 
 ├── artifacts/
 
 ├── reports/
 
 └── notebooks/
+
+```
+
+
+
+\---
+
+
+
+\## Technologies Used
+
+
+
+\- Python
+
+\- Scikit-learn
+
+\- SHAP
+
+\- Pandas
+
+\- NumPy
+
+\- Matplotlib
+
+\- Streamlit
+
+
+
+\---
+
+
+
+\## Future Improvements
+
+
+
+\- Integration with real Environment Canada weather data
+
+\- Live API-based weather ingestion
+
+\- Online deployment with Streamlit Cloud
+
+\- Advanced SHAP waterfall plots
+
+\- Time-series forecasting extension
+
+
+
+\---
+
+
+
+\## Author
+
+
+
+Alain Dika
 
