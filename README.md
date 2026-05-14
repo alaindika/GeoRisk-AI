@@ -160,45 +160,15 @@ The error analysis shows that most confusion occurs around boundary cases betwee
 
 GeoRisk-AI/
 
-│
-
 ├── app.py
 
 ├── requirements.txt
 
 ├── README.md
 
-│
-
 ├── src/
 
-│   ├── config.py
-
-│   ├── data\_gen.py
-
-│   ├── data\_loader.py
-
-│   ├── features.py
-
-│   ├── train.py
-
-│   ├── predict.py
-
-│   ├── explain.py
-
-│   ├── model\_comparison.py
-
-│   └── error\_analysis.py
-
-│
-
 ├── data/
-
-│   ├── raw/
-
-│   └── processed/
-
-│
 
 ├── images/
 
@@ -211,6 +181,36 @@ GeoRisk-AI/
 ```
 
 
+
+\---
+
+
+
+\## Dashboard Preview
+
+
+
+\### Home Dashboard
+
+!\[Dashboard Home](./images/dashboard\_home.png)
+
+
+
+\### Prediction Results
+
+!\[Prediction Result](./images/prediction\_result.png)
+
+
+
+\### SHAP Explainability
+
+!\[SHAP Analysis](./images/shap\_analysis.png)
+
+
+
+\### Error Analysis
+
+!\[Confusion Matrix](./images/confusion\_matrix.png)
 
 \---
 
