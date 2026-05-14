@@ -54,25 +54,25 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 \### Home Dashboard
 
-<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/dashboard\_home.png" width="800">
+!\[Dashboard Home](./images/dashboard\_home.png)
 
 
 
 \### Prediction Results
 
-<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/prediction\_result.png" width="800">
+!\[Prediction Result](./images/prediction\_result.png)
 
 
 
 \### SHAP Explainability
 
-<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/shap\_analysis.png" width="800">
+!\[SHAP Analysis](./images/shap\_analysis.png)
 
 
 
 \### Error Analysis
 
-<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/confusion\_matrix.png" width="800">
+!\[Confusion Matrix](./images/confusion\_matrix.png)
 
 \---
 
