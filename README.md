@@ -48,31 +48,35 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 \---
 
+
+
 \## Dashboard Preview
 
 
 
 \### Home Dashboard
 
-<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/dashboard\_home.png" width="800">
+!\[Dashboard Home](images/dashboard\_home.png)
 
 
 
 \### Prediction Results
 
-<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/prediction\_result.png" width="800">
+!\[Prediction Result](images/prediction\_result.png)
 
 
 
 \### SHAP Explainability
 
-<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/shap\_analysis.png" width="800">
+!\[SHAP Analysis](images/shap\_analysis.png)
 
 
 
 \### Error Analysis
 
-<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/confusion\_matrix.png" width="800">
+!\[Confusion Matrix](images/confusion\_matrix.png)
+
+
 
 \---
 
@@ -128,10 +132,6 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 
 
-Model comparison on the synthetic prototype dataset:
-
-
-
 | Model | Accuracy | Weighted F1 | High-Risk Recall |
 
 |---|---:|---:|---:|
@@ -149,6 +149,8 @@ The error analysis shows that most confusion occurs around boundary cases betwee
 
 
 \---
+
+
 
 \## Project Structure
 
@@ -178,39 +180,11 @@ The error analysis shows that most confusion occurs around boundary cases betwee
 
 
 
-\## Dashboard Preview
-
-
-
-\### Home Dashboard
-
-!\[Dashboard Home](images/dashboard\_home.png)
-
-
-
-\### Prediction Results
-
-!\[Prediction Result](images/prediction\_result.png)
-
-
-
-\### SHAP Explainability
-
-!\[SHAP Analysis](images/shap\_analysis.png)
-
-
-
-\### Error Analysis
-
-!\[Confusion Matrix](images/confusion\_matrix.png)
-
-
-
-\---
-
-
-
 \## How to Run Locally
+
+
+
+1\. Clone the repository:
 
 
 
@@ -219,92 +193,4 @@ The error analysis shows that most confusion occurs around boundary cases betwee
 git clone https://github.com/alaindika/GeoRisk-AI.git
 
 cd GeoRisk-AI
-
-python -m venv venv
-
-venv\\Scripts\\activate
-
-pip install -r requirements.txt
-
-python -m src.data\_gen
-
-python -m src.train
-
-streamlit run app.py
-
-```
-
-
-
-\---
-
-
-
-\## Technologies Used
-
-
-
-\- Python
-
-\- pandas
-
-\- NumPy
-
-\- scikit-learn
-
-\- SHAP
-
-\- Streamlit
-
-\- matplotlib
-
-\- seaborn
-
-\- joblib
-
-
-
-\---
-
-
-
-\## Limitations
-
-
-
-This prototype is trained primarily on synthetic weather data. The next major improvement is to integrate real Environment Canada weather records and validate the model against real severe-weather events.
-
-
-
-\---
-
-
-
-\## Future Improvements
-
-
-
-\- Integrate real Environment Canada weather data
-
-\- Add real-event labeling
-
-\- Deploy the dashboard online
-
-\- Add advanced SHAP waterfall plots
-
-\- Extend the system toward time-series forecasting
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-\*\*Alain Dika\*\*  
-
-Applied Mathematician | AI Graduate Student | ML/AI Engineering Portfolio
 
