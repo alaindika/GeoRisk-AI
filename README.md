@@ -1,8 +1,8 @@
-\# GeoRisk-AI
+**GeoRisk-AI**
 
 
 
-\*\*Explainable Severe Weather Risk Forecasting Dashboard\*\*
+**Explainable Severe Weather Risk Forecasting Dashboard**
 
 
 
@@ -35,6 +35,34 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 \- Streamlit dashboard for interactive risk forecasting
 
 \- Confusion matrix and error analysis workflow
+
+
+
+\## Dashboard Preview
+
+
+
+\### Home Dashboard
+
+!\[Dashboard Home](images/dashboard\_home.png)
+
+
+
+\### Prediction Results
+
+!\[Prediction Result](images/prediction\_result.png)
+
+
+
+\### SHAP Explainability
+
+!\[SHAP Analysis](images/shap\_analysis.png)
+
+
+
+\### Error Analysis
+
+!\[Confusion Matrix](images/confusion\_matrix.png)
 
 
 
