@@ -56,35 +56,25 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 \### Home Dashboard
 
-
-
-!\[Dashboard Home](images/dashboard\_home.png)
+<img src="images/dashboard\_home.png" width="800">
 
 
 
 \### Prediction Results
 
-
-
-!\[Prediction Result](images/prediction\_result.png)
+<img src="images/prediction\_result.png" width="800">
 
 
 
 \### SHAP Explainability
 
-
-
-!\[SHAP Analysis](images/shap\_analysis.png)
+<img src="images/shap\_analysis.png" width="800">
 
 
 
 \### Error Analysis
 
-
-
-!\[Confusion Matrix](images/confusion\_matrix.png)
-
-
+<img src="images/confusion\_matrix.png" width="800">
 
 \---
 
