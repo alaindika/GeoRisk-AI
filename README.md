@@ -150,65 +150,59 @@ The error analysis shows that most confusion occurs around boundary cases betwee
 
 \---
 
-
-
 \## Project Structure
 
 
 
-```text
+\- `app.py` — Streamlit dashboard
 
-GeoRisk-AI/
+\- `requirements.txt` — Python dependencies
 
-│
+\- `README.md` — project documentation
 
-├── app.py
+\- `src/` — ML pipeline source code
 
-├── requirements.txt
+\- `data/` — processed and raw data folders
 
-├── README.md
+\- `images/` — dashboard screenshots
 
-│
+\- `artifacts/` — saved model artifacts
 
-├── src/
+\- `reports/` — reports and outputs
 
-│   ├── config.py
+\- `notebooks/` — analysis notebooks
 
-│   ├── data\_gen.py
 
-│   ├── data\_loader.py
 
-│   ├── features.py
+\---
 
-│   ├── train.py
 
-│   ├── predict.py
 
-│   ├── explain.py
+\## Dashboard Preview
 
-│   ├── model\_comparison.py
 
-│   └── error\_analysis.py
 
-│
+\### Home Dashboard
 
-├── data/
+!\[Dashboard Home](images/dashboard\_home.png)
 
-│   ├── raw/
 
-│   └── processed/
 
-│
+\### Prediction Results
 
-├── images/
+!\[Prediction Result](images/prediction\_result.png)
 
-├── artifacts/
 
-├── reports/
 
-└── notebooks/
+\### SHAP Explainability
 
-```
+!\[SHAP Analysis](images/shap\_analysis.png)
+
+
+
+\### Error Analysis
+
+!\[Confusion Matrix](images/confusion\_matrix.png)
 
 
 
