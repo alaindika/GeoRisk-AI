@@ -54,25 +54,25 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 \### Home Dashboard
 
-!\[Dashboard Home](./images/dashboard\_home.png)
+<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/dashboard\_home.png" width="800">
 
 
 
 \### Prediction Results
 
-!\[Prediction Result](./images/prediction\_result.png)
+<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/prediction\_result.png" width="800">
 
 
 
 \### SHAP Explainability
 
-!\[SHAP Analysis](./images/shap\_analysis.png)
+<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/shap\_analysis.png" width="800">
 
 
 
 \### Error Analysis
 
-!\[Confusion Matrix](./images/confusion\_matrix.png)
+<img src="https://raw.githubusercontent.com/alaindika/GeoRisk-AI/main/images/confusion\_matrix.png" width="800">
 
 \---
 
@@ -160,15 +160,45 @@ The error analysis shows that most confusion occurs around boundary cases betwee
 
 GeoRisk-AI/
 
+│
+
 ├── app.py
 
 ├── requirements.txt
 
 ├── README.md
 
+│
+
 ├── src/
 
+│   ├── config.py
+
+│   ├── data\_gen.py
+
+│   ├── data\_loader.py
+
+│   ├── features.py
+
+│   ├── train.py
+
+│   ├── predict.py
+
+│   ├── explain.py
+
+│   ├── model\_comparison.py
+
+│   └── error\_analysis.py
+
+│
+
 ├── data/
+
+│   ├── raw/
+
+│   └── processed/
+
+│
 
 ├── images/
 
@@ -181,36 +211,6 @@ GeoRisk-AI/
 ```
 
 
-
-\---
-
-
-
-\## Dashboard Preview
-
-
-
-\### Home Dashboard
-
-!\[Dashboard Home](./images/dashboard\_home.png)
-
-
-
-\### Prediction Results
-
-!\[Prediction Result](./images/prediction\_result.png)
-
-
-
-\### SHAP Explainability
-
-!\[SHAP Analysis](./images/shap\_analysis.png)
-
-
-
-\### Error Analysis
-
-!\[Confusion Matrix](./images/confusion\_matrix.png)
 
 \---
 
