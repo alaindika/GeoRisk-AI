@@ -2,13 +2,36 @@
 
 ## Explainable Severe Weather Risk Forecasting Dashboard
 
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)]()
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red.svg)]()
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange.svg)]()
+[![SHAP](https://img.shields.io/badge/Explainability-SHAP-purple.svg)]()
+
 GeoRisk-AI is a machine learning prototype that classifies localized severe-weather risk as **Low**, **Medium**, or **High** using engineered meteorological features. The system combines a trained Random Forest model, SHAP-based explainability, error analysis, and an interactive Streamlit dashboard.
+
+---
+
+## Live Demo
+
+Coming soon — Streamlit deployment in progress.
 
 ---
 
 ## Project Motivation
 
 Severe weather alerts need to be timely, localized, and interpretable. This project translates weather signals such as rainfall accumulation, pressure drop, wind speed, humidity, temperature anomaly, snowfall rate, and season into a risk-level prediction that can support early decision-making.
+
+---
+
+## Technical Highlights
+
+- Built an end-to-end machine learning workflow in Python
+- Implemented multiclass severe-weather risk classification
+- Compared Logistic Regression, Decision Tree, and Random Forest models
+- Prioritized high-risk recall for safety-oriented forecasting
+- Added SHAP-based local interpretability for model predictions
+- Built an interactive Streamlit dashboard for decision support
+- Added confusion-matrix-based error analysis
 
 ---
 
@@ -37,6 +60,26 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 ### Error Analysis
 ![Confusion Matrix](images/confusion_matrix.png)
+
+---
+
+## System Architecture
+
+```text
+Weather Inputs
+      ↓
+Feature Engineering
+      ↓
+Random Forest Classifier
+      ↓
+Risk Prediction: Low / Medium / High
+      ↓
+SHAP Explainability
+      ↓
+Streamlit Dashboard
+      ↓
+Decision-Support Output
+```
 
 ---
 
@@ -158,6 +201,8 @@ This prototype is trained primarily on synthetic weather data. The next major im
 - Deploy the dashboard online
 - Add advanced SHAP waterfall plots
 - Extend the system toward time-series forecasting
+- Add geospatial risk visualization
+- Add automated retraining workflow
 
 ---
 
