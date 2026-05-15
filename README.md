@@ -13,7 +13,7 @@ GeoRisk-AI is a machine learning prototype that classifies localized severe-weat
 
 ## Live Demo
 
-Coming soon — Streamlit deployment in progress.
+Streamlit deployment coming soon.
 
 ---
 
@@ -78,6 +78,8 @@ The emphasis on high-risk recall reflects real-world forecasting priorities wher
 ---
 
 ## System Architecture
+
+![System Architecture](images/system_architecture.png)
 
 ```text
 Weather Inputs
