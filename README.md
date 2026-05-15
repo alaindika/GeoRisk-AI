@@ -23,6 +23,20 @@ Severe weather alerts need to be timely, localized, and interpretable. This proj
 
 ---
 
+## Why This Project Matters
+
+Weather-risk forecasting systems require not only predictive performance but also interpretability and operational usability. This project was designed to simulate an end-to-end machine learning workflow that combines:
+
+- data engineering
+- feature engineering
+- model evaluation
+- explainable AI
+- interactive deployment
+
+The emphasis on high-risk recall reflects real-world forecasting priorities where missing dangerous events can have significant consequences.
+
+---
+
 ## Technical Highlights
 
 - Built an end-to-end machine learning workflow in Python
